@@ -24,7 +24,7 @@ function Projects() {
               imgPath={NearbI}
               isBlog={false}
               title="CRM System [Nearbi]"
-              description="Developed a high-performance CRM using React.js, Next.js, Nest.js, and PostgreSQL. Implemented reusable UI components with Shadcn, integrated Exotal for call tracking, and added location-based features using Google Maps API. Utilized Docker for containerization and configured CI/CD pipelines for automated deployment."
+              description="123333 Developed a high-performance CRM using React.js, Next.js, Nest.js, and PostgreSQL. Implemented reusable UI components with Shadcn, integrated Exotal for call tracking, and added location-based features using Google Maps API. Utilized Docker for containerization and configured CI/CD pipelines for automated deployment."
             />
           </Col>
 
