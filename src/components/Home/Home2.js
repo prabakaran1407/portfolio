@@ -57,10 +57,10 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/kumar2191"
+                  href="https://github.com/prabakaran1407"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -68,10 +68,10 @@ function Home2() {
 
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/kumar-m-1445b0222/"
+                  href="https://www.linkedin.com/in/prabakaran-ravichandran-3a6527328/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>

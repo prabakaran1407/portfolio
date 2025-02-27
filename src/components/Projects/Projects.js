@@ -2,11 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import NFT from "../../Assets/Projects/NFT2.jpeg";
-import Near from "../../Assets/Projects/near.png";
+import FASO from "../../Assets/Projects/FASO-NEW-LOGO-03-02-1-1400x787.jpg";
+import NearbI from "../../Assets/Projects/Nearbi.svg";
 import Gold from "../../Assets/Projects/gold.png";
 import StaticSite from "../../Assets/Projects/StaticSite.png";
-import Fine from "../../Assets/Projects/fine.jpg";
 
 function Projects() {
   return (
@@ -22,19 +21,28 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Near}
+              imgPath={NearbI}
               isBlog={false}
-              title="Crypto Currency"
-              description="This project is a modern crypto platform designed to provide secure and efficient financial services. Built with Next.js for a high-performance frontend, and Node.js with Express for robust backend operations, it leverages PostgreSQL for reliable data management. The integration of NEAR Protocol's blockchain technology allows for decentralized transactions using JavaScript-based smart contracts, enhancing both security and transparency."
+              title="CRM System [Nearbi]"
+              description="Developed a high-performance CRM using React.js, Next.js, Nest.js, and PostgreSQL. Implemented reusable UI components with Shadcn, integrated Exotal for call tracking, and added location-based features using Google Maps API. Utilized Docker for containerization and configured CI/CD pipelines for automated deployment."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={NFT}
+              imgPath={FASO}
               isBlog={false}
-              title="Creating NFT"
-              description="This project involves the creation of a secure and transparent certificate management system. The front end is developed using React.js, providing an intuitive user interface, while Prisma serves as the SQL database layer for efficient data handling. By leveraging the NEAR Protocol, certificates are created as NFTs, ensuring immutability and authenticity on the blockchain."
+              title="ERP & CRM [FASO, FIRM, SALES10x]"
+              description="Built a full-stack application using React with TypeScript and MUI library. Developed robust APIs using Node.js, Express.js, and Sails.js. Implemented MongoDB for data management, deployed on AWS EC2 with NGINX, and integrated QR code scanning for improved stock tracking."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={StaticSite}
+              isBlog={false}
+              title="Business Card & Hall Booking Management [FICCI]"
+              description="Created a web application using React (Vite) with TypeScript and Shadcn UI. Implemented PostgreSQL with Prisma ORM for efficient data handling. Features include user self-registration, QR code generation, and analytics dashboards. Built secure APIs using NestJS framework."
             />
           </Col>
 
@@ -42,27 +50,8 @@ function Projects() {
             <ProjectCard
               imgPath={Gold}
               isBlog={false}
-              title="Gold's"
-              description="This project is an application developed using ViteJS (React) for a fast and efficient frontend, paired with NestJS and Prisma for a robust backend. Key features include defining user roles and permissions to manage different levels of access, along with a responsive and accessible UI to ensure a seamless experience across various devices."
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={StaticSite}
-              isBlog={false}
-              title="Static Site"
-              description="This project is a static site developed using ReactJS, created as a freelancing project for a construction equipment selling company. The site includes React components like Header, Footer, and movement, providing a dynamic user interface while showcasing the company's offerings."
-              ghLink={"https://github.com/kumar2191/static_react_app_ts.git"}
-              demoLink={"https://raniengineeringworks.netlify.app"}
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Fine}
-              isBlog={false}
-              title="Fine Management System"
-              description="This project is a Fine Management System, a custom-built website with a focus on user management and security. The frontend is crafted using React, incorporating components like Header, Footer, and movement for a dynamic UI. The backend is powered by Node.js, with MongoDB (Cloud) as the database. The application features secure sign-in and sign-up processes using JWT tokens."
-              ghLink={"https://github.com/kumar2191/FMS.git"}
+              title="Enterprise Resource Planning [GOLD'S]"
+              description="Developed a full-stack ERP system using React (Vite), TypeScript, and Shadcn UI. Integrated Redux Toolkit for state management. Built secure APIs with NestJS and PostgreSQL, using Prisma ORM. Deployed on AWS EC2 with NGINX and implemented CI/CD pipelines."
             />
           </Col>
         </Row>

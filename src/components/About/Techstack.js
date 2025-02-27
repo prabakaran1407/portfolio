@@ -6,7 +6,6 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
   SiNextdotjs,
@@ -47,9 +46,6 @@ function Techstack() {
         <SiPostgresql />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPrisma />
       </Col>

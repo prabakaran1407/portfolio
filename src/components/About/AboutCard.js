@@ -8,33 +8,33 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Kumar M </span>
-            from <span className="purple"> Coimbatore, India.</span>
-            <br />
-            I am currently employed as a software developer at KPR INFO
-            SOLUTION.
-            <br />
-            I have completed MCA at RVS College of Arts and Science.
+            Greetings! I'm <span className="purple">Prabakaran</span>, a passionate software developer with <span className="purple">3 years of professional experience</span> based in <span className="purple">Coimbatore, India</span>.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Currently, I'm working as a Software Developer at <span className="purple">Hyperready Technologies</span>, where I focus on building scalable web applications and microservices. Throughout my career, I've developed expertise in full-stack development and delivered numerous successful projects.
+            <br />
+            <br />
+            I hold a Master's degree in Computer Science from <span className="purple">St Joseph's College, Trichy</span>, where I developed a strong foundation in computer science principles and modern software development practices.
+            <br />
+            <br />
+            Beyond coding, I maintain a healthy work-life balance through various activities:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Continuous Learning & Tech Exploration
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies
+              <ImPointRight /> Problem-Solving & Strategic Gaming
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Cultural Exploration & Travel
             </li>
           </ul>
 
-          {/* <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: "rgb(155 126 172)" }}>
+            "Striving to create innovative solutions that make a meaningful impact."{" "}
           </p>
-          <footer className="blockquote-footer">Kumar</footer> */}
+          <footer className="blockquote-footer">Prabakaran</footer>
         </blockquote>
       </Card.Body>
     </Card>
